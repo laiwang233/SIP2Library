@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32328.378
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SIP2Client", "SIP2Client\SIP2Client.csproj", "{3F3EB4CC-570D-41D6-8069-E614F425369C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00 solution items", "00 solution items", "{47138660-57FA-47FA-8276-347BC93393F0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 src", "01 src", "{E95345FF-4E87-4E1B-8D59-C30EB3FB8B5C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 tests", "02 tests", "{3B265044-66DA-4A19-8931-0822C00C0308}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SIP2Client.Tests", "SIP2Client.Tests\SIP2Client.Tests.csproj", "{50EB17F0-E465-4580-A694-29BB110F4134}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3F3EB4CC-570D-41D6-8069-E614F425369C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F3EB4CC-570D-41D6-8069-E614F425369C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F3EB4CC-570D-41D6-8069-E614F425369C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F3EB4CC-570D-41D6-8069-E614F425369C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50EB17F0-E465-4580-A694-29BB110F4134}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50EB17F0-E465-4580-A694-29BB110F4134}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50EB17F0-E465-4580-A694-29BB110F4134}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50EB17F0-E465-4580-A694-29BB110F4134}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3F3EB4CC-570D-41D6-8069-E614F425369C} = {E95345FF-4E87-4E1B-8D59-C30EB3FB8B5C}
+		{50EB17F0-E465-4580-A694-29BB110F4134} = {3B265044-66DA-4A19-8931-0822C00C0308}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {649F1057-6F56-4559-8A3C-24B11E4A3505}
+	EndGlobalSection
+EndGlobal
